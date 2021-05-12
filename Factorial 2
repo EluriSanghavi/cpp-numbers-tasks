@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int n=3, i, x=4;
+    double num,fact=1,res;
+	
+	for (i = 1; i <= 3; i++)
+	{
+		num=x^n;
+		fact = fact * i;
+	
+	}
+        res=num/fact;
+    
+	cout << res;
+}

@@ -1,0 +1,13 @@
+#include<iostream>
+Using namespace std;
+int main()
+{
+int n,i,sum=0;
+cout<<"enter n";
+Cin>>n;
+for(i=1;i<=n;i++)
+{
+Sum=sum+i;
+}
+cout<<sum;
+}

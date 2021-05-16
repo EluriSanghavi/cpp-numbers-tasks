@@ -1,0 +1,24 @@
+
+#include<iostream>
+using namespace std;
+int main()
+{
+	int r,n,sum=0,res;
+	cout<<"enter n";
+	cin>>n;
+	res=n;
+	while(n!=0)
+	{
+		r=n%10;
+		n=n/10;
+		sum=sum*10+r;
+	}
+	if(res==sum)
+	{
+		cout<<"palindrome";
+	}
+	else
+	{
+		cout<<"not";
+}
+}

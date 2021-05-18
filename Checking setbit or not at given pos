@@ -1,0 +1,14 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int pos,n;
+	cin>>n>>pos;
+	if(n&((pos-1)<<1))
+	{
+		cout<<"set bit";
+	}
+	else
+	cout<<"unset bit";
+
+}

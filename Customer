@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	int i, n, count = 0;
+	int a[n];
+	cout << "enter n";
+	cin >> n;
+	cout << "enter array elements";
+	for (i = 0; i < n; i++)
+	{
+		cin >> a[i];
+	}
+	int min = a[0];
+	for (i = 0; i < n; i++)
+	{
+		if (min >= a[i])
+		{
+			min = a[i];
+			count++;
+		}
+	}
+	cout << "id  " << min <<"\n";
+	cout<< "visited " << count;
+}
